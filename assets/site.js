@@ -5,7 +5,10 @@
     var open = l.classList.toggle("open"); t.setAttribute("aria-expanded", open ? "true" : "false");
   });
   document.querySelectorAll(".sub-toggle").forEach(function (b) {
-    b.addEventListener("click", function () { b.parentElement.classList.toggle("open"); });
+    b.setAttribute("aria-expanded", "false");
+    b.addEventListener("click", function () {
+      var open = b.parentElement.classList.toggle("open"); b.setAttribute("aria-expanded", open ? "true" : "false");
+    });
   });
 
   var box = document.getElementById("tryq"); if (!box) return;
