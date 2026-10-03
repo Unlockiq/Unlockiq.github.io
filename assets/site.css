@@ -244,3 +244,6 @@ picture{display:block} picture img{display:block;width:100%;height:auto}
 /* v3.7 a11y: links inside text are underlined, not colour-only */
 .crumbs a{text-decoration:underline;text-underline-offset:2px}
 .fnote a{color:#fff;text-decoration:underline}
+
+/* v3.8: light buttons keep dark text inside teal sections */
+.section.teal a.btn-light{color:var(--teal-deep)} .section.teal a.btn-light:hover{background:#E6F4F2;color:var(--teal-deep)}
