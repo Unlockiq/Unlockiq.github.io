@@ -265,15 +265,8 @@ picture{display:block} picture img{display:block;width:100%;height:auto}
 @media (max-width:640px){.ws{columns:1}}
 .offer{background:#FFF3CF;border:2px dashed #8B6508;border-radius:10px;padding:8px 12px;font-size:.95rem;color:var(--ink)}
 .price-tbl td,.price-tbl th{padding:6px 10px;font-size:.92rem}.price-tbl s{color:var(--ink-3)}
-/* launch-window states (class set on <html> by the head script) */
-html.phase-pre .ph-offer,html.phase-pre .ph-normal,html.phase-pre .ph-open,
-html.phase-offer .ph-pre,html.phase-offer .ph-normal,
-html.phase-normal .ph-pre,html.phase-normal .ph-offer,html.phase-normal .ph-sale{display:none!important}
-html:not(.phase-pre):not(.phase-offer):not(.phase-normal) .ph-pre,html:not(.phase-pre):not(.phase-offer):not(.phase-normal) .ph-offer,html:not(.phase-pre):not(.phase-offer):not(.phase-normal) .ph-sale{display:none!important}
+.p-offer{display:none}.offer-on .p-offer{display:inline}.offer-on .p-reg{display:none}
 /* paper-buying steps: double border, one colour per step */
 .steps>div{border:4px double var(--sc,var(--coral-btn))!important}
 .steps>div:nth-child(1){--sc:#C2410C}.steps>div:nth-child(2){--sc:#0F766E}.steps>div:nth-child(3){--sc:#8B6508}
 .steps>div:nth-child(1) b{background:#C2410C}.steps>div:nth-child(2) b{background:#0F766E}.steps>div:nth-child(3) b{background:#8B6508}
-
-/* about page */
-.about-story p{font-size:1.08rem}.pull{margin:18px 0;padding:14px 22px;border-left:6px solid var(--coral-btn);background:var(--cream);font-family:var(--font-display);font-size:1.9rem;color:var(--teal-deep)}.about-close{font-size:1.15rem;line-height:1.7}
