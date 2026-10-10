@@ -22,7 +22,7 @@
     "4": [{ q: "The perimeter of a square park is 36 metres. What is the length of one side of the park?", o: ["6 m", "8 m", "9 m", "12 m"], a: 2, e: "A square has 4 equal sides, so one side is 36 ÷ 4 = 9 m." },
           { q: "One box holds 8 pencils. How many pencils are there in 7 such boxes?", o: ["54", "56", "64", "48"], a: 1, e: "7 × 8 = 56 pencils." }],
     "5": [{ q: "Which of these fractions is greater than one half?", o: ["2/5", "3/8", "5/9", "4/10"], a: 2, e: "Half of 9 is 4.5. Since 5 is more than 4.5, 5/9 is greater than 1/2." },
-          { q: "A train leaves Pune at 9:40 a.m. and reaches Mumbai at 11:15 a.m. How long does the journey take?", o: ["1 h 25 min", "1 h 35 min", "1 h 45 min", "2 h 15 min"], a: 1, e: "9:40 to 10:40 is 1 hour, and 10:40 to 11:15 is 35 minutes." }],
+          { q: "A train leaves the station at 9:40 a.m. and reaches Mumbai at 11:15 a.m. How long does the journey take?", o: ["1 h 25 min", "1 h 35 min", "1 h 45 min", "2 h 15 min"], a: 1, e: "9:40 to 10:40 is 1 hour, and 10:40 to 11:15 is 35 minutes." }],
     "6": [{ q: "One bell rings every 6 minutes and another bell rings every 8 minutes. They ring together at 10:00 a.m. After how many minutes will they ring together again?", o: ["12", "16", "24", "48"], a: 2, e: "The LCM of 6 and 8 is 24, so they ring together again after 24 minutes." },
           { q: "When 9 is added to a number, the answer is 21. What is the number?", o: ["11", "12", "13", "30"], a: 1, e: "21 − 9 = 12." }],
     "7": [{ q: "What is the value of (−3) × (−4) + (−5)?", o: ["7", "−7", "17", "−17"], a: 0, e: "(−3) × (−4) = 12, and 12 + (−5) = 7." },
