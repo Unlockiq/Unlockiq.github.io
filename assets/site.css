@@ -298,3 +298,4 @@ html:not(.phase-pre):not(.phase-offer):not(.phase-normal) .ph-pre,html:not(.phas
 .steps>div:nth-child(1) b{background:#C2410C}.steps>div:nth-child(2) b{background:#0F766E}.steps>div:nth-child(3) b{background:#8B6508}
 #mathemagica .rc-slide img{object-fit:contain;background:#fff}.rc-dots{bottom:10px}.bk-img.rc .stk{bottom:34px}.bk-img.rc{border:0}
 .ds-on{display:none}html.dsale .ds-on{display:block}html.dsale .ds-inl{display:inline}.dsale-p{margin:4px 0 10px;padding:6px 10px;border-radius:10px;background:#FFF4D6;border:1px dashed #E0A100;font-size:.95rem}.dsale-p s{color:#9CA3AF}.ds-pr{color:#C2410C;font-size:1.1rem}
+.pair-note{margin:10px 0 0;font-size:.92rem;background:#FFF4D6;border:1px dashed #E0A100;border-radius:10px;padding:6px 10px}.pair-note a{color:#0F766E;font-weight:700}.pair-note b{color:#C2410C}
